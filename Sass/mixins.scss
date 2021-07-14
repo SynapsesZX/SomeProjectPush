@@ -1,0 +1,11 @@
+@mixin correcting  {
+    @media screen and ( max-width: 860px){
+        @content
+    }
+}
+
+@mixin phonecorrection {
+    @media screen and ( max-width:320px) {
+        @content
+    }
+}

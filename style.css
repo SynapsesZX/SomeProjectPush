@@ -1,0 +1,301 @@
+body {
+  font-family: "Montserrat",sans-serif;
+  background-color: #e9e9e9; }
+
+header {
+  background: url(Images/1.jpg) center no-repeat/cover;
+  height: 140vh; }
+  header .navbar a {
+    color: #505050;
+    font-size: 12px;
+    text-transform: uppercase; }
+    header .navbar a:hover {
+      color: #10c9c3;
+      text-shadow: 0px 0px 18px #35ba93;
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: 0.5s all;
+      -o-transition: 0.5s all;
+      transition: 0.5s all; }
+
+#title {
+  margin-top: 35%; }
+  #title h1 {
+    -webkit-animation: changecolor 2s infinite linear;
+    animation: changecolor 2s infinite linear; }
+  #title p {
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #878787;
+    padding-left: 4px; }
+  #title .btn {
+    background-color: #10c9c3;
+    margin-left: 4px;
+    width: 150px;
+    height: 5.3vh; }
+    #title .btn:hover {
+      -webkit-box-shadow: 0px 0px 30px #35ff93;
+      box-shadow: 0px 0px 30px #35ff93;
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      -webkit-transition: 1s -webkit-box-shadow;
+      transition: 1s -webkit-box-shadow;
+      -o-transition: 1s box-shadow;
+      transition: 1s box-shadow;
+      transition: 1s box-shadow, 1s -webkit-box-shadow; }
+    #title .btn a {
+      font-size: 12px;
+      letter-spacing: 1px;
+      color: #505050; }
+
+.mobilemenu {
+  -webkit-box-shadow: 0px 0px 269px #10c9c3;
+  box-shadow: 0px 0px 269px #10c9c3;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 200px;
+  height: 100%;
+  background-color: black;
+  -webkit-transition: 1s all;
+  -o-transition: 1s all;
+  transition: 1s all; }
+  .mobilemenu ul {
+    margin: 0;
+    padding: 20px 0; }
+    .mobilemenu ul li {
+      list-style: none; }
+      .mobilemenu ul li a {
+        display: block;
+        padding: 20px 40px;
+        text-transform: uppercase;
+        font-family: "Montserrat",sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        color: #10c9c3; }
+  .mobilemenu .openmenu {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    display: none; }
+
+.active {
+  left: 0; }
+
+#aboutus {
+  -webkit-transition: 1s all;
+  -o-transition: 1s all;
+  transition: 1s all;
+  opacity: 0;
+  margin-top: 100px;
+  height: 35%; }
+  #aboutus h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    -webkit-animation: changecolor 2s infinite linear;
+    animation: changecolor 2s infinite linear; }
+  #aboutus p {
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #787878;
+    font-weight: bolder; }
+
+#ProfSkills {
+  margin-top: 120px; }
+  #ProfSkills .n1 {
+    background-color: #f8f9f9;
+    height: 600px; }
+    #ProfSkills .n1 h1 {
+      padding-left: 5%;
+      padding-top: 20%;
+      font-size: 30px;
+      -webkit-animation: changecolor 2s infinite linear;
+      animation: changecolor 2s infinite linear; }
+    #ProfSkills .n1 h4 {
+      padding-left: 5%;
+      font-size: 14px;
+      padding-top: 35px;
+      text-transform: uppercase; }
+    #ProfSkills .n1 .progress {
+      margin-left: 5%;
+      height: 3px;
+      width: 75%; }
+    #ProfSkills .n1 .progress-bar {
+      background-color: #10c9c3; }
+  #ProfSkills .n2 {
+    background-color: #e9e9e9;
+    height: 600px; }
+
+#ProjectsNumber {
+  background-color: #10c9c3;
+  height: 250px;
+  opacity: 0;
+  -webkit-transition: 1s all;
+  -o-transition: 1s all;
+  transition: 1s all; }
+  #ProjectsNumber h4 {
+    color: white;
+    padding-top: 10px;
+    font-size: 18px; }
+  #ProjectsNumber p {
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px; }
+
+#gallery {
+  height: 300px;
+  cursor: pointer;
+  position: relative; }
+  #gallery:nth-child(odd) {
+    background-color: #838383; }
+  #gallery:nth-child(even) {
+    background-color: #dddddd; }
+  #gallery:hover {
+    background-color: black;
+    -webkit-transition: 1s background-color;
+    -o-transition: 1s background-color;
+    transition: 1s background-color; }
+  #gallery img {
+    margin-top: 130px;
+    opacity: 1; }
+    #gallery img:hover {
+      opacity: 1;
+      -webkit-transition: 0;
+      -o-transition: 0;
+      transition: 0; }
+
+#work {
+  height: 100px;
+  text-transform: uppercase;
+  font-size: 12px; }
+  #work a {
+    color: #a9a9a9;
+    text-decoration: none;
+    -webkit-animation: changecolor 2s infinite linear;
+    animation: changecolor 2s infinite linear; }
+
+#workprogress {
+  height: 940px;
+  background-color: white;
+  /*
+    #ellipse {
+        width: 80px;
+        height: 80px;
+        background-color:rgb(16, 201, 195);
+        border-radius: 50%;
+    }
+    #triangle {
+    margin: 32px 32px;
+    width: 0;
+    height:0;
+    border-bottom: 14px solid white;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    transform: rotate(90deg);
+    }
+    */ }
+  #workprogress h1 {
+    padding-top: 100px;
+    -webkit-animation: changecolor 2s infinite linear;
+    animation: changecolor 2s infinite linear;
+    font-size: 30px; }
+  #workprogress p {
+    font-size: 16px;
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif; }
+  #workprogress #video {
+    height: 575px;
+    background-color: #e9e9e9; }
+
+#development {
+  height: 600px; }
+  #development h1 {
+    font-size: 12px;
+    text-transform: uppercase; }
+  #development p {
+    font-size: 16px;
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif; }
+
+#carousels {
+  height: 500px;
+  background-color: #10c9c3; }
+  @media screen and (max-width: 860px) {
+    #carousels {
+      height: 300px; } }
+  #carousels h1 {
+    color: white;
+    font-size: 24px;
+    line-height: 40px; }
+    @media screen and (max-width: 860px) {
+      #carousels h1 {
+        line-height: 30px;
+        font-size: 16px; } }
+  #carousels p {
+    padding-top: 5px;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase; }
+
+#partners {
+  height: 205px; }
+
+#NeedProject {
+  height: 600px; }
+  #NeedProject h1 {
+    font-size: 30px;
+    -webkit-animation: changecolor 2s infinite linear;
+    animation: changecolor 2s infinite linear; }
+  #NeedProject p {
+    font-size: 16px;
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif; }
+  #NeedProject .form-control {
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif; }
+  #NeedProject button {
+    background-color: #10c9c3;
+    font-size: 12px;
+    width: 150px;
+    height: 5.3vh;
+    color: white; }
+    #NeedProject button:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      -webkit-transition: 1s -webkit-box-shadow;
+      transition: 1s -webkit-box-shadow;
+      -o-transition: 1s box-shadow;
+      transition: 1s box-shadow;
+      transition: 1s box-shadow, 1s -webkit-box-shadow; }
+
+#footer {
+  height: 285px;
+  background-color: black;
+  color: white; }
+  #footer h7 {
+    font-size: 18px;
+    -webkit-animation: changecolor 2s infinite linear;
+    animation: changecolor 2s infinite linear; }
+  #footer p {
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #bcbcbc; }
+  #footer a {
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #bcbcbc; }
+  #footer .fab {
+    color: white;
+    -webkit-animation: changecolor 2s infinite linear;
+    animation: changecolor 2s infinite linear; }
+    #footer .fab:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: 0.3s all;
+      -o-transition: 0.3s all;
+      transition: 0.3s all; }

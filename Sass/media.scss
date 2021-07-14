@@ -1,0 +1,296 @@
+
+@media screen and (max-width:1200px) {
+    .icons {
+        
+    }   
+
+    
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:780px) {
+    header {
+
+
+background:url(Images/1.jpg) center no-repeat / cover;
+ height:140vh;
+ 
+  
+.navbar{
+
+a {
+color: #505050;
+font-size: 12px;
+text-transform: uppercase;
+display: none;
+
+&:hover{
+color: rgb(16, 201, 195);
+text-shadow: 0px 0px 18px rgba(53, 186, 147, 1);
+transform: scale(1.2);
+transition: 0.5s all;
+}
+ }
+  }
+   }
+    
+#title {
+    margin-top:570px;
+    p{
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #878787;
+    padding-left: 4px;
+}
+    }
+
+.mobilemenu {
+z-index: 100;
+position: fixed;
+top:0;
+left:-250px;
+width: 200px;
+height: 100%;
+
+background-color: black;
+
+transition:1s all;
+ul {
+margin: 0;
+padding: 20px 0;
+li {
+list-style: none;       
+    a {
+display: block;
+padding: 20px 40px;
+text-transform: uppercase;
+font-family: "Montserrat",sans-serif;
+font-size: 15px;
+text-decoration: none;
+}
+ }
+    }
+    
+.openmenu {
+position: absolute;
+top: 0;
+left: 300px;
+display: block;
+  }
+}
+  
+.active {
+left: 0;
+}  
+
+
+
+#aboutus {
+margin-top: 100px;
+height: 35%;
+h1 {
+font-size: 30px;
+}
+p {
+font-size: 16px;
+font-family: 'Nunito Sans', sans-serif;
+color: #787878;
+font-weight: bolder;
+ }
+}
+    
+#ProfSkills {
+
+
+margin-top: 120px;
+
+.n1 {
+background-color: #f8f9f9;
+height: 450px;
+
+
+h1{
+padding-left: 5%;
+padding-top: 20%;
+font-size: 30px;     
+}
+h4{
+padding-left: 5%;
+font-size: 14px;
+padding-top: 35px;
+text-transform: uppercase;
+  
+}
+
+.progress {
+margin-left: 5%;
+height: 3px;
+width: 75%;
+    }
+ 
+.progress-bar {
+background-color: rgb(16, 201, 195);
+}
+
+}
+.n2 {
+background-color: #e9e9e9;
+height: 350px;
+}
+
+         }
+ 
+    
+
+
+
+#ProjectsNumber {
+background-color: rgb(16, 201, 195);
+height: 250px;
+
+
+h4 {
+color: white;
+padding-top: 10px;
+font-size: 18px;
+ }
+    
+p{
+text-transform: uppercase;
+color: white;
+font-size: 12px;
+}
+}
+
+#carousels {
+margin-top: 150px;
+height: 500px;
+background-color: rgb(16, 201, 195)
+}
+
+#footer {
+height: 285px;
+background-color: black;
+color: white;
+}
+
+             }
+
+@media screen and (max-width:765px){
+
+#carousels {
+margin-top:700px;
+height: 500px;
+background-color: rgb(16, 201, 195)
+}
+
+}
+
+@media screen  and (max-width:515px){
+
+    
+#ProjectsNumber {
+background-color: rgb(16, 201, 195);
+height: 450px;
+
+img {
+padding-top: 5px;
+ }
+h4 {
+color: white;
+padding-top: 10px;
+font-size: 18px;
+ }
+    
+p{
+text-transform: uppercase;
+color: white;
+font-size: 12px;
+}
+              }
+    
+#workprogress {
+ height: 400px;
+ background-color: white;
+h1 {
+padding-top: 20px;
+animation:changecolor 2s infinite linear;
+font-size: 30px;
+}  
+p{
+font-size: 10px;
+color: #787878;
+font-family: 'Nunito Sans', sans-serif;
+}
+img {
+width: 150px;
+margin-right: 40px;
+}
+    
+#video {
+height: 200px;
+background-color: #e9e9e9;
+}
+    
+
+              }
+
+#carousels {
+margin-top:700px;
+height: 200px;
+background-color: rgb(16, 201, 195);
+h1 {
+   
+color: white;
+font-size:10px;
+line-height: 20px;
+}
+p{
+padding-top: 5px;
+font-size: 12px;
+color: white;
+text-transform: uppercase;
+ }
+    
+          }
+    
+#footer {
+height: 270px;
+background-color: black;
+color: white;
+   
+h7 {
+font-size: 18px;
+   }
+p{
+font-size: 15px;
+font-family: 'Nunito Sans', sans-serif;
+color: #bcbcbc;
+ }
+a {
+font-size: 15px;
+font-family: 'Nunito Sans', sans-serif;
+color: #bcbcbc;
+  }
+}
+
+
+}
+
+@media screen and (max-width:350px) {
+        #title {
+    margin-top: 350px;
+    
+            .btn {
+                
+                height: 40px;
+            }
+    
+    }   
+}
+
